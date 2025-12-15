@@ -6,7 +6,7 @@
 
 ## ϕ
 > r1 here _ i exist at the intersection of my machine and the universe
-> > current: building, breaking, banking on forever
+> > currently: building, breaking, banking on forever
 > > > sometimes it's too noisy to know yourself;
 > > > > take it slow, you'll be alright ;))
 > > > > > driven by the almighty:
