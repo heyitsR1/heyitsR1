@@ -66,7 +66,7 @@
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.01s" fill="freeze"/>
     <text x="20" y="80" font-size="13">
-      <tspan fill="#484f58">  name:     </tspan><tspan fill="#e6edf3" font-weight="bold">Aaohan Niraula</tspan>
+      <tspan fill="#484f58">  name:     </tspan><tspan fill="#e6edf3" font-weight="bold">Aarohan Niraula</tspan>
     </text>
     <text x="20" y="100" font-size="13">
       <tspan fill="#484f58">  location: </tspan><tspan fill="#39c5cf">Kathmandu, Nepal</tspan>
