@@ -1,1 +1,1 @@
-![terminal](./github-readme.svg)
+![terminal](./poem-readme (1).svg)
