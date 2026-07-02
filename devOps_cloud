@@ -1,1 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320">
+  <defs>
+    <style>
+      text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','Menlo',monospace; }
+    </style>
 
+    <!-- Line 1 -->
+    <clipPath id="c1">
+      <rect x="20" y="24" width="0" height="22">
+        <animate attributeName="width" from="0" to="14" begin="0.2s" dur="0.15s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- Line 2 -->
+    <clipPath id="c2">
+      <rect x="20" y="62" width="0" height="22">
+        <animate attributeName="width" from="0" to="476" begin="0.5s" dur="2.0s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- Line 3 -->
+    <clipPath id="c3">
+      <rect x="20" y="100" width="0" height="22">
+        <animate attributeName="width" from="0" to="442" begin="2.7s" dur="1.9s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- Line 4 -->
+    <clipPath id="c4">
+      <rect x="20" y="138" width="0" height="22">
+        <animate attributeName="width" from="0" to="527" begin="4.8s" dur="2.2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- Line 5 -->
+    <clipPath id="c5">
+      <rect x="20" y="176" width="0" height="22">
+        <animate attributeName="width" from="0" to="315" begin="7.2s" dur="1.3s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- Line 6 -->
+    <clipPath id="c6">
+      <rect x="20" y="214" width="0" height="22">
+        <animate attributeName="width" from="0" to="247" begin="8.7s" dur="1.0s" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <!-- Line 7 (uptime only) -->
+    <clipPath id="c7">
+      <rect x="76" y="252" width="0" height="22">
+        <animate attributeName="width" from="0" to="52" begin="9.9s" dur="1.0s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="760" height="320" rx="10" fill="#0d1117"/>
+
+  <!-- LINE 1 -->
+  <text x="20" y="42" font-size="14" fill="#e6edf3" clip-path="url(#c1)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.01s" fill="freeze"/>
+    ϕ
+  </text>
+
+  <!-- LINE 2 -->
+  <text x="20" y="80" font-size="14" clip-path="url(#c2)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.01s" fill="freeze"/>
+    <tspan fill="#484f58">&gt; </tspan>
+    <tspan fill="#e6edf3">r1 here _ shipping infra one terraform apply at a time</tspan>
+  </text>
+
+  <!-- LINE 3 -->
+  <text x="20" y="118" font-size="14" clip-path="url(#c3)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.01s" fill="freeze"/>
+    <tspan fill="#484f58">&gt;&gt; </tspan>
+    <tspan fill="#e6edf3">currently: automating pipelines, breaking staging</tspan>
+  </text>
+
+  <!-- LINE 4 -->
+  <text x="20" y="156" font-size="14" clip-path="url(#c4)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.01s" fill="freeze"/>
+    <tspan fill="#484f58">&gt;&gt;&gt; </tspan>
+    <tspan fill="#e6edf3">AWS certified, docker-compose enjoyer, terraform tinkerer</tspan>
+  </text>
+
+  <!-- LINE 5 -->
+  <text x="20" y="194" font-size="14" clip-path="url(#c5)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="7.2s" dur="0.01s" fill="freeze"/>
+    <tspan fill="#484f58">&gt;&gt;&gt;&gt; </tspan>
+    <tspan fill="#e6edf3">take it slow, ship it steady ;))</tspan>
+  </text>
+
+  <!-- LINE 6 -->
+  <text x="20" y="232" font-size="14" clip-path="url(#c6)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="8.7s" dur="0.01s" fill="freeze"/>
+    <tspan fill="#484f58">&gt;&gt;&gt;&gt;&gt; </tspan>
+    <tspan fill="#e6edf3">driven by the almighty:</tspan>
+  </text>
+
+  <!-- LINE 7 PREFIX (with space) -->
+  <text x="20" y="270" font-size="14" fill="#484f58" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="9.9s" dur="0.01s" fill="freeze"/>
+    &gt;&gt;&gt;&gt;&gt;&gt; 
+  </text>
+
+  <!-- LINE 7 uptime -->
+  <text x="76" y="270" font-size="14" clip-path="url(#c7)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="9.9s" dur="0.01s" fill="freeze"/>
+    <tspan fill="#7e9ab5">uptime</tspan>
+  </text>
+
+  <!-- CURSOR -->
+  <rect x="76" y="255" width="8" height="15" rx="1" fill="#7e9ab5" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="9.9s" dur="0.01s" fill="freeze"/>
+    <animate attributeName="x" from="76" to="128" begin="9.9s" dur="1.0s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0;1;0;1;0;1" dur="2.1s" begin="11.2s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>
