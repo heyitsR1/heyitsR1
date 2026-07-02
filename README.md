@@ -1,1 +1,1 @@
-![terminal](./devOpsCloud.svg)
+![terminal](./devOps_cloud.svg)
